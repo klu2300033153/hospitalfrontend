@@ -2,7 +2,7 @@ name: Deploy Hospital Frontend to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]   # DEPLOY FROM MASTER BRANCH
   workflow_dispatch:
 
 permissions:
